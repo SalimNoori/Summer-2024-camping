@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lake Elum Summer Camp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lake Elum Summer Camp</h1>
+        <nav>
+            <ul>
+                <li><a href="#food">Food</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#planning">Planning</a></li>
+                <li><a href="#comments">Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="food">
+            <h2>Food</h2>
+            <p>Information about the food available at the camp.</p>
+        </section>
+        <section id="activities">
+            <h2>Activities</h2>
+            <p>Details about the activities planned for the camp.</p>
+        </section>
+        <section id="planning">
+            <h2>Planning</h2>
+            <p>Information on how to plan your visit.</p>
+        </section>
+        <section id="comments">
+            <h2>Comments</h2>
+            <form id="comment-form">
+                <textarea id="comment-text" placeholder="Leave your comment here..." rows="4" cols="50"></textarea>
+                <button type="button" onclick="saveComment()">Submit</button>
+            </form>
+            <div id="comments-list">
+                <!-- Comments will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html> 
+
+
+
+
+
 
